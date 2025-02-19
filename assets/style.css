@@ -107,3 +107,70 @@
     background-color: var(--primary-hover);
     cursor: pointer;
   }
+
+  /* === THEME BUTTONS === */
+
+.themes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  
+    height: 30px;
+  
+    margin-bottom: 15px;
+  }
+  
+  .themes #light-sun{
+    display: none;
+  }
+  
+  .themes #dark-moon {
+    transition: 400ms;
+  }
+  
+  .themes #dark-moon:hover {
+    width: 30px;
+    height: 30px;
+  
+    cursor: pointer;
+  }
+  
+  body.dark-theme #dark-moon {
+    display: none;
+  }
+  
+  body.dark-theme .themes #light-sun {
+    display: initial;
+  
+    transition: 400ms;
+  }
+  
+  body.dark-theme .themes #light-sun:hover {
+    width: 30px;
+    height: 30px;
+  
+    cursor: pointer;
+  }
+  
+  /* ====== ====== */
+  
+  footer {
+    font-size: 12px;
+    line-height: 16px;
+  
+    opacity: 0.6;
+    transition: opacity 400ms;
+  
+    color: var(--text-color);
+  }
+  
+  footer:hover {
+    opacity: 1;
+  }
+  
+  footer p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--text-color);
+  }
