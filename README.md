@@ -1,9 +1,9 @@
 # Página de links - Fisioterapeuta Priscila Aguiar
 
-![Imagem de resultado do projeto](assets/priscila-links.gif)
+![Imagem de resultado do projeto](assets/images/priscila-links.gif)
 <br>
 
-> 🚀 <a href="">Acesse aqui</a>
+> 🚀 <a href="https://vinimax001.github.io/links-priscila/">Acesse aqui</a>
 
 ## 💻 Sobre
 
